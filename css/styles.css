@@ -1,3 +1,33 @@
+/* Rooter */
+:root{
+  --premium:#5267DF;
+  --danger: #FA5959;
+  --dark: #242A45;
+  --light:#9194A2;
+  --font: "Rubik", "Arial", sans-serif;
+
+}
+
+/* Fonts  */
+/* rubik-regular - latin */
+@font-face {
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 400;
+  src: local(""),
+       url("../fonts/rubik-v14-latin-regular.woff2") format("woff2"), /* Chrome 26+, Opera 23+, Firefox 39+ */
+       url("../fonts/rubik-v14-latin-regular.woff") format("woff"); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+/* rubik-500 - latin */
+@font-face {
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 500;
+  src: local(""),
+       url("../fonts/rubik-v14-latin-500.woff2") format("woff2"), /* Chrome 26+, Opera 23+, Firefox 39+ */
+       url("../fonts/rubik-v14-latin-500.woff") format("woff"); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
 /* GLOBAL */
 html {
   box-sizing: border-box;
@@ -17,11 +47,11 @@ body {
   height: 100%;
   padding: 0;
   margin: 0;
-  font-family: "Arial", sans-serif;
-  font-size: 16px;
-  line-height: 1.5;
+  font-family:var(--font);
+  font-size: 18px;
+  line-height: 28px;
   background-color: #fff;
-  color: #222;
+  color: var(--dark);
 }
 
 img {
@@ -33,9 +63,9 @@ img {
 /* CONTAINER */
 .container {
   width: 100%;
-  max-width: 1200px;
-  padding-left: 50px;
-  padding-right: 50px;
+  max-width: 1400px;
+  padding-left: 75px;
+  padding-right: 75px;
   margin-left: auto;
   margin-right: auto;
 }
