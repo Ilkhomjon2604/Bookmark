@@ -290,6 +290,13 @@ a{
   opacity: 0.5;
   margin-bottom: 45px;
 
+
+}
+.tabs{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items:center;
 }
 .features-list {
   display: flex;
@@ -297,20 +304,25 @@ a{
   max-width: 730px;
   margin-bottom: 72px;
 }
-.indiv-feature {
+.features-list-title {
   padding: 27px 40px;
   border-bottom: 4px solid rgba(73, 93, 207, 0.20012);
   cursor: pointer;
 }
-.active{
+.list-title-active{
   border-bottom: 4px solid var(--danger);
 }
 
-.simple-bookmarking {
-  display: flex;
+.features-list-item {
+  display: none;
   align-items: center;
   justify-content: space-between;
 }
+.features-list-item-active{
+display: flex;
+}
+
+
 .simple-bookmarking-content {
   width: 445px;
   margin-left: 125px;
