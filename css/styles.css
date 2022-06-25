@@ -307,7 +307,7 @@ a{
 .features-list-title {
   padding: 27px 40px;
   border-bottom: 4px solid rgba(73, 93, 207, 0.20012);
-  cursor: pointer;
+  /* cursor: pointer; */
 }
 .list-title-active{
   border-bottom: 4px solid var(--danger);
