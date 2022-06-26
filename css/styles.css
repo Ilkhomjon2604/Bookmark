@@ -391,11 +391,11 @@ display: flex;
   align-items: center;
 
 }
-.extension-card:nth-child(2){
+.extension-card:nth-child(3n + 2){
   transform: translateY(40px);
   margin-left: 34px;
 }
-.extension-card:nth-child(3){
+.extension-card:nth-child(3n + 3){
   transform: translateY(80px);
   margin-left: 34px;
 }
