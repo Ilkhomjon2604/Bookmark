@@ -319,7 +319,7 @@ a{
   justify-content: space-between;
 }
 .features-list-item-active{
-display: flex;
+  display: flex;
 }
 
 
@@ -497,6 +497,21 @@ display: flex;
   padding-bottom: 10px;
 
 }
+
+.show_answer .answer{
+  display: block;
+}
+.show_answer path{
+  stroke: var(--danger);
+}
+.show_answer .indicator{
+  transform: rotate(180deg);
+}
+.show_answer .savol{
+  color: var(--danger)
+}
+
+
 .answer {
   display: none;
   font-size: 16px;
